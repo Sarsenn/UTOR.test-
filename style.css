@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	position: relative;
+	height: 100vh;
+}
+
+.box {
+position: absolute;
+top: 54%;
+left: 49%;
+transform: translateX(-50%);
+width: 150px;
+background-color: #ececec;
+height: 150px;
+overflow: hidden;
+}
+.round {
+	position: absolute;
+	top: -20px;
+	left: -16px;
+	width: 100px;
+	background-color: #98c1a9;
+	height: 100px;
+	border-radius: 10px 37px 60px 33px;
+
+}
+
+.triangle {
+	position: absolute;
+	top: -58px;
+	right: -60px;
+	width: 100px;
+	background-color: #e99d8b;
+	height: 100px;
+	clip-path: polygon(93% 1%, 1% 100%, 100% 97%);
+}
+.big {
+	position: absolute;
+	top: 8px;
+	right: 67px;
+	width: 18px;
+	transform: rotate(137deg);
+	background-color: #8f9fce;
+	height: 120px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+}
+.round-mini {
+	position: absolute;
+	top: 51px;
+	right: 30px;
+	width: 37px;
+	background-color:#98d3b2;
+	height: 38px;
+	border-radius:100%;
+
+}
+
+.rounded-box {
+	position: absolute;
+	bottom: 18px;
+	right: 19px;
+	width: 113px;
+	height: 31px;
+	background-color: #cb8ddf;
+	border-radius: 12px;
+}
